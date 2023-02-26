@@ -14,3 +14,9 @@ Additionally, `src/paste2/PASTE2/partial_pairwise_align_histology` uses both gen
 
 ## Installation
 We will soon make PASTE2 available on PyPi. In the mean time, you can download the repository and call the functions directly.
+
+## Contact
+If you encounter any problem running the software, please contact Xinhao Liu at xl5434@princeton.edu
+
+## Reference
+Xinhao Liu, Ron Zeira, Benjamin J. Raphael. "PASTE2: Partial Alignment of Multi-slice Spatially Resolved Transcriptomics Data". bioRxiv 2023.01.08.523162; doi: https://doi.org/10.1101/2023.01.08.523162
