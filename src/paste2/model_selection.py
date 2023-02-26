@@ -133,7 +133,7 @@ def calculate_convex_hull_edge_inconsistency(sliceA, sliceB, pi):
 """
 Main function.
 """
-def decide_overlap(sliceA, sliceB, alpha=0.1):
+def select_overlap_fraction(sliceA, sliceB, alpha=0.1):
     """
     Estimates the overlap percentage of two ST slices.
 
@@ -195,7 +195,7 @@ def plot_edge_curve(m_list, source_list, target_list):
     plt.show()
 
 
-def decide_overlap_plotting(sliceA, sliceB, alpha=0.1):
+def select_overlap_fraction_plotting(sliceA, sliceB, alpha=0.1):
     overlap_to_check=[0.99, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05]
     # subset for common genes
     common_genes = intersect(sliceA.var.index, sliceB.var.index)
