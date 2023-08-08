@@ -163,7 +163,8 @@ def partial_fused_gromov_wasserstein(M, C1, C2, p, q, alpha, m=None, G0=None, lo
             # c = (1 - alpha) * wloss(M, Gprev) + alpha * gwloss_partial(C1, C2, Gprev, loss_fun)
             c = fgwloss_partial(alpha, M, C1, C2, Gprev, loss_fun)
 
-            gamma = ot.optim.solve_1d_linesearch_quad(a, b, c)
+            gamma = ot.optim.solve_1d_linesearch_quad(a, b)
+            # gamma = ot.optim.solve_1d_linesearch_quad(a, b, c)
             # f_val = a * gamma ** 2 + b * gamma + c
         else:
             def f(x, alpha, M, C1, C2, lossfunc):
