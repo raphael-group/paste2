@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paste2"
+version = "1.0.0"
+dependencies = [
+  "anndata>=0.7.6",
+  "scanpy>=1.7.2",
+  "POT>=0.9.1",
+  "numpy",
+  "scipy",
+  "statsmodels",
+  "networkx"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Xinhao Liu", email = "xl5434@princeton.edu"}
+]
+maintainers = [
+  {name = "Xinhao Liu", email = "xl5434@princeton.edu"}
+]
+description = "Probabilistic Alignment of Spatial Transcriptomics Experiments v.2"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/raphael-group/paste2"
+Issues = "https://github.com/raphael-group/paste2/issues"
