@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "paste2"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
   "anndata>=0.7.6",
   "scanpy>=1.7.2",

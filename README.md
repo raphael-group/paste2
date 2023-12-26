@@ -16,7 +16,7 @@ Additionally, `src/paste2/PASTE2/partial_pairwise_align_histology` uses both gen
 PASTE2 is available on PyPI at https://pypi.org/project/paste2/. To install PASTE2, run `pip install paste2`. 
 
 ## Quick Start
-We included a tutorial in this repo (`tutorial.ipynb`). The tutorial should cover everything you need to run PASTE2 on your own dataset. 
+We included a tutorial in this repo (`tutorial.ipynb`). The tutorial should cover the basics you need to run PASTE2 on your own dataset. Additionally, the documentation of each function is in the source code.
 
 ## Contact
 If you encounter any problem running the software, please contact Xinhao Liu at xl5434@princeton.edu
