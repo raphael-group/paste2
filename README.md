@@ -1,5 +1,6 @@
 # PASTE2
 
+![paste2](paste2.png)
 
 PASTE2, the extension of PASTE, is a method for partial alignment and 3D reconstruction of spatial transcriptomics slices when they do not fully overlap in space. 
 
