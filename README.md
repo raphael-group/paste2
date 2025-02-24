@@ -2,6 +2,9 @@
 
 ![paste2](paste2.png)
 
+> [!IMPORTANT]
+> **Please see the [Paste3](https://github.com/raphael-group/paste3) repository with updated code that handles both the PASTE and PASTE2 algorithms.**
+
 PASTE2, the extension of PASTE, is a method for partial alignment and 3D reconstruction of spatial transcriptomics slices when they do not fully overlap in space. 
 
 There are three main functions:
